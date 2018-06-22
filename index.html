@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
     <title>Touche Restaurant</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
   </head>
@@ -47,25 +48,25 @@
 
       <div class="topnav">
         <br><br><br><br><br>
-        <h3>Cafe/Restaurant</h3>
+        <h3>Café/Restaurant</h3>
         <h1>Touché</h1>
         <br><br><br>
         <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6 topnav">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6 topnav">
             <p class="topp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
-          <div class="col-md-3"></div>
+          <div class="col-sm-3"></div>
 
         </div>
         <br><br><br>
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6">
             <button type="button" class="btn btn-default "><strong>Make Reservation</strong></button>
           </div>
-          <div class="col-md-3"></div>
+          <div class="col-sm-3"></div>
         </div>
         <br><br><br>
         <div class="row">
@@ -88,31 +89,31 @@
     <div class=" a">
       <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3 top">
+      <div class="col-sm-3 top">
         <br><br>
         <p class="sec"></p>
         <p class="sec-place">Lorem ipsum dolor sit amet, cupidatat non proident,id est laborum.</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
           <br><br><br>
           <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="img-responsive c" alt="">
         </div>
-        <div class="col-md-6 to">
+        <div class="col-sm-6 to">
           <h3>Lorem ipsum dolor sit amet.</h3>
           <p class="topp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore mag laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
 
       <div class="row ">
-        <div class="col-md-6 b">
+        <div class="col-sm-6 b">
           <h2>velit esse cillum dolore eu.</h2>
           <p class="topp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="col-md-2 to">
+        <div class="col-sm-2 to">
           <p class="sec"></p>
           <p class="sec-place">Lorem ipsum dolor sit amet, cupidatat non proident,id est laborum.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/05/Mexican_Grilled_Steak_Salad_with_Honey_Lime_Dressing-1.jpg" class="img-responsive d" alt="">
         </div>
       </div>
@@ -130,13 +131,328 @@
         <div class="col-sm-3">  </diV>
         </div>
       </div>
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-5">
+      <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')">Breakfast</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Lunch</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Dinner</button>
+    <button class="tablinks " onclick="openCity(event, 'Nairobi')">Drinks</button>
+  </div>
+    <div class="col-sm-3"></div>
+</div>
+</div>
+
+
+  <div id="London" class="tabcontent">
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="Paris" class="tabcontent">
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="Tokyo" class="tabcontent">
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2017/10/Crispy_Foolproof_Onion_Rings-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="Nairobi" class="tabcontent">
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/06/No_Bake_Chocolate_Layer_Dessert-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/11/5_Ingredient_Caramel_Pecan_Smores_Dip-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/11/5_Ingredient_Caramel_Pecan_Smores_Dip-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/11/5_Ingredient_Caramel_Pecan_Smores_Dip-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/11/5_Ingredient_Caramel_Pecan_Smores_Dip-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+      <div class="col-sm-2 h">
+        <img src="http://www.thecomfortofcooking.com/wp-content/uploads/2016/11/5_Ingredient_Caramel_Pecan_Smores_Dip-1.jpg" class="img-responsive h" alt=""><hr>
+      </div>
+      <div class="col-sm-3">
+        <h3>Lorem ipsum dolor sit ame.</h3>
+        <p class="i">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <hr>
+      </div>
+      <div class="col-sm-1">
+        <h2>$15</h2>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <div class="j">
+    <h2 class="j"> Excepteur sint occaecat cupidatat.</h2>
+    <p class="j">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="container-fluid k">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="main-carousel">
+
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Ugali</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Nyama</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Waru</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Marenge</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Mukimo</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Githeri</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Mchele</div>
+  <div class="carousel-cell"><img src="http://www.thecomfortofcooking.com/wp-content/uploads/2014/03/RainbowFruitSkewers-1.jpg" class="flick" alt="">Terere</div>
+</div>
+</div>
+      </div>
+    </div>
 
   </div>
 
 
 
-
-
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
   </body>
 </html>
