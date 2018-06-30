@@ -118,7 +118,7 @@ h2{
 }
 /* Style the tab */
 .tab {
-
+  background-color: yellow;
 }
 
 /* Style the buttons inside the tab */
@@ -185,4 +185,70 @@ h2{
 .carousel-cell{
 
   padding: 1rem;
+}
+
+.l{
+  background-color: darkgrey;
+}
+/* position dots up a bit */
+.flickity-page-dots {
+  bottom: -22px;
+}
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+}
+.m{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.n{
+  text-align: center;
+}
+.p{
+  height: auto;
+  width: auto;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+.q{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.r{
+  padding-top: 20px;
+}
+.center{
+  text-align: center;
+  font-size: 19px;
+}
+.mirror{
+  background-image: url(https://simpleqode.bitbucket.io/touche/assets/img/1.jpg);
+  background-size: cover;
+  bah
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  height: 75%;
+  left: 0;
+  right: 0;
+}
+.slider{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.topper{
+  color: yellow;
+}
+.black{
+  color: black;
+  font-size: 18px;
 }
