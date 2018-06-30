@@ -25,7 +25,9 @@ h1{
   font-size: 60px;
   font-style: bold;
 }
-
+.navbar{
+  background-color: black;
+}
 li{
   padding-left: 30px;
 }
@@ -219,7 +221,7 @@ h2{
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 50px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .r{
   padding-top: 20px;
@@ -231,7 +233,7 @@ h2{
 .mirror{
   background-image: url(https://simpleqode.bitbucket.io/touche/assets/img/1.jpg);
   background-size: cover;
-  bah
+
   background-position: center center;
   background-repeat: no-repeat;
   z-index: 2;
@@ -246,9 +248,16 @@ h2{
   z-index: -1;
 }
 .topper{
-  color: yellow;
+  color: black;
 }
 .black{
   color: black;
-  font-size: 18px;
+  font-size: 16px;
+}
+footer{
+  background-color: black ;
+  color: grey;
+}
+h5{
+  color: yellow;
 }
