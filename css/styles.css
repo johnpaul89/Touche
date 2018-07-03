@@ -1,3 +1,6 @@
+body{
+  position: relative;
+}
 .parallax-mirror{
   z-index: 2;
   height: 100%;
